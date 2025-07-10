@@ -1,7 +1,6 @@
 <?php
 
-echo "Masukan Bilangan :".PHP_EOL;
-$number = trim(fgets(STDIN));
+$number = readline ('Masukan Bilangan dong: ');
 
 if ($number > 0 ) {
     echo "Bilangan $number : Positif".PHP_EOL;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main () {
-    // Deklrasi Variabel
+    // Deklarasi Variabel
     int number;
 
     printf("Masukan bilangan bulat: ");
@@ -11,13 +11,14 @@ int main () {
     // Cek apakah bilangan tersebut Positif, Negatif atau Nol
 
     if (number > 0 ) {
-        printf ("Bilangan %d: positif\n");
+        printf ("Bilangan %d: positif\n", number);
     }
     else if (number < 0 ) {
-        printf ("Bilangan %d: Negatif\n");
+        printf ("Bilangan %d: Negatif\n", number);
     }
     else {
-        printf ("Bilangan %d : Nol\n");
+        printf ("Bilangan %d : Nol\n", number);
+
     }
-    return 0;
+    return 0; 
 }
