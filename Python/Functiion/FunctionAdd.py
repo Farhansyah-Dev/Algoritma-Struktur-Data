@@ -2,7 +2,9 @@
 #Algoritma Sederhana
 
 def tambah (number1, number2):
-    result = number1 + number2
+    numberUser1 = int(input("Masukan angka dong: "))
+    NumberUser2 = int(input("Masukan Angka juga: "))
+    result = numberUser1 + NumberUser2
     print(f'{number1} + {number2} = {result}')
     return result
 
@@ -39,9 +41,7 @@ JmlhTotalBelanja (barangdiBeli)
 UserPilihMode = input("Pilih Mode: \n1. Penjumlahan\n2. Menghitung Persegi Panjang. ")
 
 if UserPilihMode == 1:
-    numberUser1 = int(input("Masukan angka dong: "))
-    NumberUser2 = int(input("Masukan Angka juga: "))
-    tambah(numberUser1, NumberUser2)
+    tambah(10, 11)
     
 elif UserPilihMode == 2:
     UserInputPanjang = int(input("Masukan Panjang Persegi Panjang: "))
