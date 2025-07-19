@@ -58,5 +58,10 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "iostream": "cpp"
-  }
+  },
+  "editor.allowVariableFontsInAccessibilityMode": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoIndentOnPaste": true,
+  "editor.fontSize": 20,
+  "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace"
 }

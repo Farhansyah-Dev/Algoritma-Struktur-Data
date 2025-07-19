@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/HanFa/Documents/Algoritma-Struktur-Data/1. Pengenalan Algortima",
-      "program": "c:/Users/HanFa/Documents/Algoritma-Struktur-Data/1. Pengenalan Algortima/build/Debug/outDebug",
+      "cwd": "c:/Users/HanFa/Documents/Algoritma-Struktur-Data/1. Pengenalan Algortima/Bahasa C++",
+      "program": "c:/Users/HanFa/Documents/Algoritma-Struktur-Data/1. Pengenalan Algortima/Bahasa C++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
