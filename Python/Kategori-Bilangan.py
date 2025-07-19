@@ -1,11 +1,13 @@
 # // Algoritma:
 # Menentukan Bilangan Positif, Negatif, atau Nol
 
-number = int(input("Masukan Bilangan Bulat: "))
+def CekBilangan (number):
+    number = int(input("Masukan angka apa saja: "))
+    if number > 0 :
+        print(f"Angka {number} bilangan Positif")
+    elif number < 0 :
+        print(f"Angka {number} bilangan Negatif")
+    else:
+        print(f"Angka {number} bilangan Nol")
 
-if number > 0:
-	print ('Positif')
-elif (number < 0 ):
-    print ('Negatif')
-else:
-	print ('Nol')
+CekBilangan (10)
